@@ -12,9 +12,15 @@ function createGrid() {
     for (let i = 0; i < 16; i++) {
       const pixelDiv = document.createElement("div");
       pixelDiv.setAttribute("class", "pixelDiv");
+      pixelDiv.addEventListener("mouseover", (e) => {
+        e.target.style.backgroundColor = "black";
+      });
       columnDiv.appendChild(pixelDiv);
     }
   }
 }
+//function pixelate(e) {
+//  e.target.style.backgroundColor = "black";
+//}
 
 createGrid();

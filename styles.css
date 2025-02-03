@@ -1,5 +1,7 @@
 .container {
   display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .rowDiv {
