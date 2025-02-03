@@ -1,1 +1,21 @@
+.container {
+  display: flex;
+}
 
+.rowDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.columnDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixelDiv {
+  display: flex;
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
